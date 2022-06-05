@@ -13,9 +13,11 @@ int main() {
     initArray(arr, N);
 
     print(arr, N);
+//    bubbleSort(arr, N);
 //    insertionSort(arr, N);
 //    shellSort(arr, N);
-    quickSort(arr, N);
+//    quickSort(arr, N);
+    mergeSort(arr, N);
     print(arr, N);
 
 //    nutsAndBoltsMatching();
